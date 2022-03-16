@@ -3,7 +3,7 @@ public class Runner{
 
 	public Runner(){
 		System.out.println(getPerfectSquare().ps(169));
-		Quotient q =  (x, y) -> System.out.printf("%.3f%n", x/y);
+		Quotient q =  (x, y) -> System.out.printf("%.3f%n", x/y); //the .3f makes it so the output is always at 3 decimal places (abdul)
 		q.remainder(200, 23);
 	}
 
