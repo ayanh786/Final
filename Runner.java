@@ -17,7 +17,7 @@ public class Runner{
     }
 
 	public static PerfectSquare getPerfectSquare(){
-		return (num) -> Math.sqrt(num)-Math.floor(Math.sqrt(num))==0;
+		return (num) -> Math.sqrt(num)-Math.floor(Math.sqrt(num))==0; //Ayan - I learned how to use lambda expressions and the different functions that are related to math and square roots
 	}
 
 	public static void main(String[] args)
